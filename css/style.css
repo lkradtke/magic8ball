@@ -1,3 +1,49 @@
+h1 {
+    font-family: 'Fascinate', cursive;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif ;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif ;
+    font-weight: 600;
+}
+
+#answers {
+    background-image: url("../img/magic/magic8ball_start.png");
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+    
+}
+
 body {
     background-image: linear-gradient(#4b0456, #445566, #022536);
+    color: aliceblue;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
 }
